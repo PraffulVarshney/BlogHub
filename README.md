@@ -6,9 +6,11 @@ This is a Spring Boot-based Blog Application that allows users to perform variou
 
 - [Features](#features)
 - [Technologies Used](#technologies-used)
+- [Internal Schema](#internal-schema)
 - [Usage](#usage)
 - [Endpoints](#endpoints)
 - [Authorization](#authorization)
+
 ## Features
 
 - User registration and authentication.
@@ -16,15 +18,26 @@ This is a Spring Boot-based Blog Application that allows users to perform variou
 - Role-based access control (Admin and User roles).
 - JWT token-based authentication.
 - Exception handling for error responses.
+- MySQL database integration for data persistence
+- Secure endpoints to ensure data integrity
 
 ## Technologies Used
-
+- JDK 17
 - Spring Boot
 - Spring Security
 - Spring Data JPA
 - JWT (JSON Web Tokens)
 - Hibernate
 - MySql Database
+
+## Internal Schema
+### ER Diagram
+<img width="488" alt="ER Diagram" src="https://github.com/user-attachments/assets/936aab09-3661-4e3a-8e98-8f03f67d87a2" width="1000" height="600">
+
+### Database
+<img width="688" alt="Database Schema" src="https://github.com/user-attachments/assets/918f38df-9667-4486-82e6-8e67f7cd05c9" width="500" height="500">
+
+
 
 ## Usage
 
